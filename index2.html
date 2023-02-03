@@ -5,12 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mi primera web</title>
+    <style>
+        table, th, td { 
+            border: 1px solid black;
+        }
+    </style>
 </head>
 <body>
-    <form>
+    <table style="width: 500px;">
+        <thead>
+         <tr>   
+            <th>producto</th>
+            <th>precio</th>
+            </tr>
+         <tr>
+        </thead>
+        <tbody>    
+            <td>hola bts </td>
+            <td> gratis</td>
+         </tr>
+            <tr>
+            <td> lalalala</td>
+            <td>19.30 </td>
+         </tr>
+         <tr>
+            <td>producto caro</td>
+            <td>22.90</td>
+         </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>total: 29.80</td>
+        </tfoot> 
+    </table>
+    <!-- ul es lista no ordenada-->
+    <ul>
+        <li> elemento 1</li>
+        <li> elemento 2</li>
+        <li> elemento 3</li>
+    </ul>
+    <ol>
+        <li> elemento 1</li>
+        <li> elemento 2</li>
+        <li> elemento 3</li> 
+    </ol>
+    <form action="/formulario" method="get">
         <label for="nombre">nombre</label>
-        <input type="text" id="nombre" name="nombre" placeholder="chanchito..."/>
+        <input value="chanchito" type="text" id="nombre" name="nombre" />
+        <!--placeholder="chanchito..." sirve igual que la propiedad "name"-->
         <br>
+        <label for="apellido">apellido</label>
+        <input value="chanchito" type="text" id="apellido" name="apellido" placeholder="chanchito triste">
+        <br>
+        <label for="comentario">comentario</label>
+        <textarea cols="50" rows="10" id="comentario"> este es un valor por defecto</textarea>   
+        <br>
+        <button type="button"> boton </button> 
+        <br>
+        <button type="reset">  reset </button>
+        <br>
+        <button type="submit"> tipo submit </button>
     </form>
     <h1>mi primer heading </h1>
     <h2>segundo heading</h2>
