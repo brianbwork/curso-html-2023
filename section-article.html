@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>noticias pricipal </h1>
+    </header>
+    <!--dentro de main van a ir los section y anidados los article en el siguiente ejemplo-->
+    <main>
+        <section>
+            
+            <h2> noticia secundaria </h2>
+            
+            <section>
+                <h3> cada seccion debe tener un encabezado si o si </h3>
+                <article>                                                                          
+                    <header>
+                        <h4>noticia que se relaciona con las demas pero s</h4>
+                    </header>
+                    <p>tambien puede ir un parrafo </p>
+                     <footer>pie de pagina que esta habilitado semanticamente ya que al estar dento de un article</footer>
+                </article>
+                <article>
+                    <h4>segunda noticia relacionada con la preincipal</h4>
+                    <p>este es el otro modo que tambien es correcto semanticamente </p>
+                 </article>
+            </section>             
+        </section>  
+        <article>
+            <h2> tambien se puede poner de manera en el que article sea contenedor de section </h2>
+            <section>
+                <h4>artticle conteniendo section</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium dolor quis odit ab, corrupti illo atque esse ad aspernatur nesciunt, suscipit consequuntur animi. Error nulla, eum harum unde animi distinctio.</p>
+            </section>
+            <section>
+                <header>
+                    <h4>tambien se puede poner header y footer ya que es semanticamente viable</h4>
+                </header>
+                <p> texto en parrafos </p>
+                <footer>
+                    aca este es el foooter 
+                </footer>
+            </section>
+        </article>  
+    </main>
+</body>
+</html>
