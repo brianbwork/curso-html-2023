@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumiendo todos los temas</title>
+</head>
+<body>
+    <header>
+        <h1><u>PUNTOS DE LOS TEMAS Y DESARROLLO DE HTML</u></h1>
+    </header>
+    <main>
+        <h2><b>Tema inicial </b></h2>
+        <section id="post1">
+            <h3>Punto 0</h3>
+            <P>
+                La extructura de un citio web esta formado por un conjunto de etiquetas que se alinean de una manera particular utilizando la etiqueta:
+                <br>
+                <u>Head:</u>en esta etiqueta se encuentran los datos que no ve el usuario 
+                <br>
+                <u>body:</u>En esta etiqueta se encuentra todo los elementos que podran ver e interactuar los usuarios 
+            </P>
+        </section>
+        <section id="post2" >
+            <h3>Tema inicial 1</h3>
+            <p>
+                En esta face se comenzara a completar las zonas tanto de head como body. <br>
+                <U>Dentro de body:</U> dentro tiene tres diviciones en este orden "header", "main", "footer".
+                <br>
+                <b>header:</b> en esta etiqueta se utiliza para indicar lo que se  encuentra el "menu de la web ", "busqueda",despliegue de menu, servicios, contacto, logotipo de pagina.
+                <br>
+                <b>Main:</b> etiqueta "main" es el cuerpo central de la pagina ya que la mayor parte del contenido central va en este lugar 
+                <br>
+                <b>footer:</b>es llamado como pie de pagina y es  utilizado para poner los datos de la empresa , conactos, informacion 
+            </p>
+        </section>
+        <article id="post3">
+            <h3>titulos y parrafos </h3>
+            <p>
+                <b>como se contruyen:</b> para los titulos se utiliza la etiqueta del h1 como las mas importante hasta el h9 mayormente  solo se utiliza del h1 al h5, tiene un estilo que le ad la propia etiqueta pero su uso rel es semantico que indica el nivel de importancia que tiene cada etiqueta h1   
+            </p>
+            <p>
+                <b>etiqueta p:</b>  la etiqueta "P" sirve para contener dentro parrafos de texto que a su vez se puede introducir dentro de esta otras  etiquetas que le dan otro valor 
+            </p>
+            <p>
+                <b>elementos de bloque y linea</b>
+            </p>
+        </article>
+        <section>
+            <h3><u>etiquetas de estructuracion de contenido section,          article y aside</u> </h3>
+            <p>
+                <b>section:</b> este mismo es un contenedor generico que agrupa los temas relacionados directamente entre si 
+                <br>
+                <b>article:</b> esta etiqueta es un contenedor que agrupa contenido independiente, que si leyera por si solo se comprenderia del tema principal, estos temas a su vez tendrian una relacion con lo demas de la pagina web
+                <br>
+                <b>aside:</b> se utiliza para presentar contenido realcionado pero que  no forma parte del contenido principal
+                <br>
+                <b>anidamniento:</b> el termino anidamiento es cuando algunas etiquetas pueden contener otras etiquetas iguales dentro de la principal como ocurre con las etiquetas "section y article"
+                <br>
+                <b>Ejemplo 1:</b>
+            </p>
+            <img src="img/anidamiento.png">
+        </section>
+        
+        <article id="post4">
+            <h3>article anidado</h3> 
+            <article >
+                <h4>Elementos de linea</h4>
+                <p>
+                <b>em:</b> etiqueta que le asigna importancia al contenido dentro de está.
+                <br>
+                <b>strong:</b> esta etiqueta le da mas importancia en el codigo , ademas de que con esta etiqueta tambien se vuelve color negrita su contenido
+                <br>
+                <b>small:</b> esta etiqueta le quita importancia y queda por debajo del texto en general semanticamente. 
+                <br>
+                <b>Time:</b> etiqueta que se utiliza para designar fecha y hora
+                <br>
+                <b>i:</b> etiqueta que se utiliza para mayormente agregar iconos a la pagina como tambien pone en cursiva 
+                <br>
+                <b>u:</b> esta etiqueta subraya el texto que se encunetre dentro 
+                <br>
+                <b>b:</b>  la etiqueta "b" solamente colorea de negro el texto               
+                <br>
+                <b>sup:</b>etiqueta que pine al contenido por encima de la linea de texto ejemplo, 2<sup>2</sup>
+                <br>
+                <b>sub:</b>etiqueta que pone por debajo de la linea de texto al contenido H<sub>2</sub>O<sub>2</sub>
+                </p>
+            </article>
+            <article>
+                <h4>atributos generales </h4>
+                <p><b>alteranibutos comunes :</b> su sintaxis es -> --atributo ="valor"
+                    <br>
+                    <b>atributos booleanos:</b>su sintaxis es el nombre del atributo, si existen se dan como verdaderos y si no se da como falsos 
+                </p>
+                <h4>ejemplos deatributos </h4>
+                <p>
+                    <b>class:</b> con esta etiqueta se puede asignar una clase y poder editarlo con css  utilizando tambien la etiqueta style
+                    <br>
+                    <b>id:</b>es un identificador , gracias a este se puede nombrar este identificador  con java scrit, tampoco se puede repetir nombre 
+                    <br>
+                </p>
+                <p title=" informacion extra como esta ">
+                    <b>title</b> se utiliza para agregar mas datos a una definicion , esta misma se mostrara como una ventana flotante con la informacion adicional, de manera que la etiqueta va de la siguiente manera: < etiqueta="p" + atributo="title"+ valor >   
+                    <br>
+                    <b>data-*</b> 
+                </p>
+            </article>
+        </section>
+        <article id="post5">
+            <h4>Introduccion a enlaces</h4>
+            <p>
+                <b>enlaces:</b>los enlaces o conocidos tambien como links son un medio para moverse entre paginas se utiliza obligatoriamente la siguiente etiqueta *  a href=" ruta/link " 
+                <a href="blog de practica.html"> blog de practica</a> 
+                <br>
+                -Tambien pueden llevar el atributo target que este se utiliza para configurar como queremos visualizar el recurso o citio solicitado 
+            </p>
+        </article>    
+        <article >    
+            <h4><u> absolutas y rutas relativas </u></h4>
+            <p>
+                <b>rutas absolutas:</b> Las rutas absolutas son las que llevan obligadamente "http" o "https" ya que la mismas son externas a las paginas que estamos creando,  osea que se debe salir a buscar por fuerade proyecto .-Ejemplo: (a href="https://www.google.com"), 
+                <a href="https://www.google.com/">ir a google</a>
+                <br>
+                <b>Rutas relativas:</b> Las rutas relativas estan centradas en buscar dentro de las carpetas donde se encuentra el codigo, quiere decir que es relativa al lugar que este , puede buscar dentro del la misma carpeta que seria el mismo nivel utilizando solo el nombre  o buscarlo en otras carpetas/niveles y para eso se utiliza de la siguiente manera agregando antes del nombre de la ruta "../" para que los busque en los otros niveles, por cada nivel es un "." .- Ejemplo:
+                *  a href="../ruta/link " 
+                <a href="blog de practica.html"> blog de practica</a>
+            </p>
+        </article>
+        <article id="post6">
+            <h4><u>Atributos de los enlaces </u></h4>
+            <p>
+                <b>Target:</b> Define donde se abrirá el recurso solicitado, quiere decir que si es que se habre en la misma pagina o abre la pagina en una nueva pestaña 
+                para esto se pose el recurso de valor "blank" que te abre en una nueva pestaña y el otro ya se encuenta por defecto que es el "self" (que es como poner nada) ejemplo para abrir en otra pagina:<a href="blog de practica.html" target="blank"> blog de practica</a>
+                ( a href="blog de practica.html" target="blank"> blog de practica
+                <br>
+                <b>Download:</b> Es un atributo booleano , sirve para descargar el recurso solicitado, el recurso debe estar en tu mismo servicdor ejemplo para descargar un archivo <a href="blog de practica.html" download>descargar</a>
+                y si se pusiera el link por vs.code para descargarlo desde el servidor google , no se descargaria por que es una ruta absoluta, sino que se abriría para verlo asi:<a href="https://www.google.com/search?q=gato&sxsrf=AJOqlzUQrKtKyhrjiwsPjW2ToAqUGe26mg:1677188253213&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiokLeQzaz9AhWrqZUCHSK8ANAQ_AUoAXoECAEQAw&biw=1366&bih=621&dpr=1" download>descargar</a><wbr>
+                para que se pueda descargar el archivo este debe estar dentro de nuestro servidor y guardado en imagenes del codigo quedando de la siguiente manera:<a href="img/gato.jpeg" download>descargar</a>
+                <img src="img/target.png">
+            </p>
+        </article >
+        <section>
+            <h4>navegacion con anclas </h4>
+            <p>
+                esto quiere decir que se va apoder navegar y movernos dentro de nuestro post a travez de enlaces.
+                de la siguiente manera.<wbr>
+                <b>1:_</b> usar la etiqueta "nav" como menu de navegacion  y ademas poner en la etiqueta article/section una identificacion con la etiqueta "id"
+                <br> 
+                (nav)<br>
+                (p) (a href="#post1") post 1(/a) (/p) <br>
+                (/nav)<br>
+                <br>
+                y en la etiqueta "article" iria de la siguiente manera (article id="post1" sin el numeral ) y para abrir este post desde otro citio se debe copiar todo lo que esta dentro del (nav) y  agregar la ruta del mismo asi (a href="nombre de ruta+#post1")
+            </p>
+            <img src="img/nav.png">
+        </section>
+        <nav>
+            <ul>
+                <li><a href="#post2">post2</a></li>
+                <li><a href="#post3">post3</a></li>
+                <li><a href="#post4">post4</a></li>
+                <li><a href="#post5">post5</a></li>
+                <li><a href="#post6">post6</a></li>
+                <li><a href="#post1">post1</a></li>
+        </nav>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
