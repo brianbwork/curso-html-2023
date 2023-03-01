@@ -5,7 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .parrafo1 {
+             color:blueviolet
+                  }
+    </style>
 </head>
+
 <body>
     <header>
         <h1>Elementos de linea</h1>
@@ -15,11 +21,13 @@
             <h2>Etiquetas de linea</h2>
             <article>
                 <h3>Etiquetas</h3>
-                <p><es>"es"</es> es la etiqueta que se pone dentro de una etiqueta "p" para dar emfacis al texto o palabas </p>
+                 <p> 
+                    <em> "em" </em> es la etiqueta que se pone dentro de una etiqueta "p" para dar emfacis al texto o palaba
+                </p>
             </article>
             <article>
                 <h3>Strong</h3>
-                <p>la etiqueta <strong>"strong"</strong> da mas enfacis que la etiqueta "es" y se utilza de la misma maneta   ademas de que se pone en color negrita el texto o palabra </p>
+                <p>la etiqueta <strong>"strong"</strong> da mas enfacis que la etiqueta "eM" y se utilza de la misma maneta   ademas de que se pone en color negrita el texto o palabra </p>
             </article>
             <article>
                 <h3>Small</h3>
@@ -38,25 +46,62 @@
                 <p>la etiqueta "time" se utiliza para aclarar al servidor que el texto dentro de esta eqiqueta indica que es un formato de fecha y hora y se puede poner ambas al mismo tiempo o solo una </p>
             </article>
             <article>
-                <h3>Etiquetas que sirven para dejar por debajo de la linea o por arriba</h3>
-                <p>
-                    <strong>estiqueta "i"</strong>
-                    <p> etiqueta "i" se utliza</p>
-                    <br>
-                    <strong>etiqueta "b"</strong>
-                    <p></p>
-                    <br>
-                    <strong>etiqueta "u"</strong>
-                    <p></p>
-                    <br>
-                </p>
+                <h3>Etiquetas de ( estilo en concreto "i", "b", "u" )que sirven para dejar por debajo de la linea o por arriba</h3>
+                    <h4>estiqueta "i" que se refiere a italic</h4>
+                    <p> <i> etiqueta "i" se utlizapr poner iconos  en librerias</i></p>
+                    <h4>etiqueta "b" bold</h4>
+                    <p><b>"b" que se refiere a bold  que lo convierte el texto solo en negrita </b>
+                    </p>
+                    <h4> etiqueta "u" underline</h4>
+                    <p><u>etiqueta "u" que se refiere a texto subrayado </u></p>
+                    <h4>etiqueta "sup"  superindice</h4>
+                    <p> la etiqueta "sup" se utiliza para poner letras o numeros dentro de un texto por arriba de la linea normal de esta manera 2<sup>2</sup></p>
+                    <h4>Etiqueta "sub" subindice </h4>
+                    <p>la etiqueta "sub" subindice se utiliza para poner por debajo de la linea del texto tanto palabras como letras o numeros de esta manera H<sub>2</sub>O<sub>2</sub></p>
             </article>
         </section>
+<!-- divicion de temas-->
+        <article>
+            <h3>Atributos globales</h3>
+            <header>
+                <h4> <u> Veremos varios atributos que harán de puente para la utilizar mas adelante tanto CSS como JS </u> </h4>
+
+                <p class="parrafo1" >
+                    <strong>Class:</strong> El atributo "class" se utilza  para dar estilos a travez de css 
+                </p>
+
+                <p id="ejemplo2">
+                    <strong>Id:</strong> El atributo "Id" es un identificador unico con el que estando en js se podra seleccionar los elementos generar conecciones en el servidor o navegar a travez de anclas)
+                </p>
+
+                <p>
+                    <strong>Style:</strong> El atributo "Style" es donde se seccionara la palabra o bloque referidos a los que se quiere modificar  
+                </p>
+
+                <p title="este es un ejemplo del atributo title">
+                    <strong>Title:</strong> El atributo "Title" se utilza  para dejar un mensaje o informacion un texto o plabra , la misma se abrirá en formato de texto proporcionando informacion a la palabra que marcamos con el mouse (tambien nombrado como tooltip)
+                </p>
+
+                <p id="ejemplo3" data-ejemplo="datos de ejemplo">
+                    <strong>Data:</strong> El atributo "Data" se utilza para guardar algun "valor" a en etiquetas html esto es un ejemplo de como utilizar 
+                </p>
+
+            </header>
+        </article>
+     <!-- la etiqueta script es un de las maneras para utilizar j.s en html
+     -->
+        <script>
+             
+            const p = document.getElementById('ejemplo2')
+            const parrafo2 = document.getElementById('ejemplo3')
+
+            console.log(p.textcontent)
+            console.log(parrafo2.dataset.ejemplo3) 
+        </script>
 
     </main>
 
     <footer>
-
     </footer>
 </body>
 </html>
